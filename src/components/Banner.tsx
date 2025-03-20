@@ -18,7 +18,8 @@ export default function Banner(){
             </div>
             {
                 session? <div className="z-30 absolute top-5 right-5 font-semibold text-cyan-500
-                text-xl bg-white p-3 rounded-lg border border-cyan-600 hover:bg-cyan-300 hover:text-black">Welcome {session.user?.name}</div> : null
+                text-xl bg-white p-3 rounded-lg border border-cyan-600 hover:bg-cyan-300 hover:text-black">
+                Welcome {session.user?.name}</div> : null
             }
             <button className='bg-white text-cyan-600 border border-cyan-600
             font-semibold py-2 px-2 m-2 rounded z-30 absolute bottom-0 right-0
